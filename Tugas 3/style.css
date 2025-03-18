@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+}
+
+.page {
+  width: 1040px;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+nav {
+  font-family: 'Mulish', sans-serif;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 48px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  transition: font-weight 0.3s;
+}
+
+nav ul li a:hover {
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 88px;
+}
+
+.text h1 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #000;
+}
+
+.text h1 span {
+  color: #ff6347; /* Example color for emphasis */
+}
+
+.text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.text button {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: #ff6347; /* Example button color */
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.text button:hover {
+  background-color: #e5533d; /* Darker shade for hover effect */
+}
+
+footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #000;
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
